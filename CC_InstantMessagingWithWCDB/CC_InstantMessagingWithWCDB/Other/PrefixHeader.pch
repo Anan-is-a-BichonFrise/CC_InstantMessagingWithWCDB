@@ -9,7 +9,10 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UINavigationBar+CcNavBar.h"
+#define ColorHex(color) [UIColor colorWithRed:((color>>16)&0xFF)/255.0f green:((color>>8)&0xFF)/255.0f blue:(color&0xFF)/255.0f alpha:1.0f]
 
+#define IMAGE(_NAME) [UIImage imageNamed:_NAME]
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #endif /* PrefixHeader_pch */

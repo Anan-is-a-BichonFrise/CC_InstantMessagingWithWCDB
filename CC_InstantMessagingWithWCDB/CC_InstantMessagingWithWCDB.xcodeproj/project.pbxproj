@@ -13,6 +13,14 @@
 		CBC533B2213A1C6800E1791E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC533B1213A1C6800E1791E /* Assets.xcassets */; };
 		CBC533B5213A1C6800E1791E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC533B3213A1C6800E1791E /* LaunchScreen.storyboard */; };
 		CBC533B8213A1C6800E1791E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC533B7213A1C6800E1791E /* main.m */; };
+		CBC533D0213A246F00E1791E /* ChatModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBC533CF213A246F00E1791E /* ChatModel.mm */; };
+		CBC533D8213A2B0400E1791E /* CcBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC533D7213A2B0400E1791E /* CcBaseNavigationController.m */; };
+		CBC533DB213A2B3A00E1791E /* CcBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC533DA213A2B3A00E1791E /* CcBaseTabBarController.m */; };
+		CBC533DE213A2B5B00E1791E /* CcBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC533DD213A2B5B00E1791E /* CcBaseViewController.m */; };
+		CBC533E8213A2DEA00E1791E /* CcChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC533E7213A2DEA00E1791E /* CcChatListViewController.m */; };
+		CBC533EB213A2E6700E1791E /* CcAddressBookListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC533EA213A2E6700E1791E /* CcAddressBookListVC.m */; };
+		CBC533EE213A2E7200E1791E /* CcUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC533ED213A2E7200E1791E /* CcUserInfoViewController.m */; };
+		CBC533F2213A836600E1791E /* UINavigationBar+CcNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC533F1213A836600E1791E /* UINavigationBar+CcNavBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,23 @@
 		CBC533B6213A1C6800E1791E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBC533B7213A1C6800E1791E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBC533CC213A202500E1791E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CBC533CE213A246F00E1791E /* ChatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
+		CBC533CF213A246F00E1791E /* ChatModel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ChatModel.mm; sourceTree = "<group>"; };
+		CBC533D1213A249D00E1791E /* ChatModel+WCTCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatModel+WCTCoding.h"; sourceTree = "<group>"; };
+		CBC533D6213A2B0400E1791E /* CcBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CcBaseNavigationController.h; sourceTree = "<group>"; };
+		CBC533D7213A2B0400E1791E /* CcBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CcBaseNavigationController.m; sourceTree = "<group>"; };
+		CBC533D9213A2B3A00E1791E /* CcBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CcBaseTabBarController.h; sourceTree = "<group>"; };
+		CBC533DA213A2B3A00E1791E /* CcBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CcBaseTabBarController.m; sourceTree = "<group>"; };
+		CBC533DC213A2B5B00E1791E /* CcBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CcBaseViewController.h; sourceTree = "<group>"; };
+		CBC533DD213A2B5B00E1791E /* CcBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CcBaseViewController.m; sourceTree = "<group>"; };
+		CBC533E6213A2DEA00E1791E /* CcChatListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CcChatListViewController.h; sourceTree = "<group>"; };
+		CBC533E7213A2DEA00E1791E /* CcChatListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CcChatListViewController.m; sourceTree = "<group>"; };
+		CBC533E9213A2E6700E1791E /* CcAddressBookListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CcAddressBookListVC.h; sourceTree = "<group>"; };
+		CBC533EA213A2E6700E1791E /* CcAddressBookListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CcAddressBookListVC.m; sourceTree = "<group>"; };
+		CBC533EC213A2E7200E1791E /* CcUserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CcUserInfoViewController.h; sourceTree = "<group>"; };
+		CBC533ED213A2E7200E1791E /* CcUserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CcUserInfoViewController.m; sourceTree = "<group>"; };
+		CBC533F0213A836600E1791E /* UINavigationBar+CcNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CcNavBar.h"; sourceTree = "<group>"; };
+		CBC533F1213A836600E1791E /* UINavigationBar+CcNavBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CcNavBar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +121,9 @@
 		CBC533BE213A1CFF00E1791E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				CBC533D4213A2AD700E1791E /* BaseVC(基类) */,
 				CBC533BF213A1CFF00E1791E /* Chat(聊天) */,
+				CBC533DF213A2D9900E1791E /* AddressBook(通讯录) */,
 				CBC533C3213A1CFF00E1791E /* MyInfo(我的) */,
 			);
 			path = Main;
@@ -115,6 +142,8 @@
 		CBC533C0213A1CFF00E1791E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CBC533E6213A2DEA00E1791E /* CcChatListViewController.h */,
+				CBC533E7213A2DEA00E1791E /* CcChatListViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -122,6 +151,9 @@
 		CBC533C1213A1CFF00E1791E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CBC533CE213A246F00E1791E /* ChatModel.h */,
+				CBC533CF213A246F00E1791E /* ChatModel.mm */,
+				CBC533D1213A249D00E1791E /* ChatModel+WCTCoding.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -146,6 +178,8 @@
 		CBC533C4213A1CFF00E1791E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CBC533EC213A2E7200E1791E /* CcUserInfoViewController.h */,
+				CBC533ED213A2E7200E1791E /* CcUserInfoViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -167,9 +201,73 @@
 		CBC533C7213A1CFF00E1791E /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CBC533EF213A835200E1791E /* Categary */,
 				CBC533CC213A202500E1791E /* PrefixHeader.pch */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		CBC533D4213A2AD700E1791E /* BaseVC(基类) */ = {
+			isa = PBXGroup;
+			children = (
+				CBC533D5213A2AD700E1791E /* Controller */,
+			);
+			path = "BaseVC(基类)";
+			sourceTree = "<group>";
+		};
+		CBC533D5213A2AD700E1791E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBC533D6213A2B0400E1791E /* CcBaseNavigationController.h */,
+				CBC533D7213A2B0400E1791E /* CcBaseNavigationController.m */,
+				CBC533D9213A2B3A00E1791E /* CcBaseTabBarController.h */,
+				CBC533DA213A2B3A00E1791E /* CcBaseTabBarController.m */,
+				CBC533DC213A2B5B00E1791E /* CcBaseViewController.h */,
+				CBC533DD213A2B5B00E1791E /* CcBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBC533DF213A2D9900E1791E /* AddressBook(通讯录) */ = {
+			isa = PBXGroup;
+			children = (
+				CBC533E0213A2D9900E1791E /* Controller */,
+				CBC533E1213A2D9900E1791E /* Model */,
+				CBC533E2213A2D9900E1791E /* View */,
+			);
+			path = "AddressBook(通讯录)";
+			sourceTree = "<group>";
+		};
+		CBC533E0213A2D9900E1791E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBC533E9213A2E6700E1791E /* CcAddressBookListVC.h */,
+				CBC533EA213A2E6700E1791E /* CcAddressBookListVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBC533E1213A2D9900E1791E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBC533E2213A2D9900E1791E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBC533EF213A835200E1791E /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				CBC533F0213A836600E1791E /* UINavigationBar+CcNavBar.h */,
+				CBC533F1213A836600E1791E /* UINavigationBar+CcNavBar.m */,
+			);
+			path = Categary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +297,7 @@
 		CBC5339D213A1C6700E1791E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Cc;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = cc;
 				TargetAttributes = {
@@ -265,8 +364,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC533EE213A2E7200E1791E /* CcUserInfoViewController.m in Sources */,
+				CBC533D8213A2B0400E1791E /* CcBaseNavigationController.m in Sources */,
+				CBC533DE213A2B5B00E1791E /* CcBaseViewController.m in Sources */,
+				CBC533DB213A2B3A00E1791E /* CcBaseTabBarController.m in Sources */,
+				CBC533E8213A2DEA00E1791E /* CcChatListViewController.m in Sources */,
+				CBC533EB213A2E6700E1791E /* CcAddressBookListVC.m in Sources */,
+				CBC533D0213A246F00E1791E /* ChatModel.mm in Sources */,
 				CBC533B8213A1C6800E1791E /* main.m in Sources */,
 				CBC533AA213A1C6800E1791E /* AppDelegate.m in Sources */,
+				CBC533F2213A836600E1791E /* UINavigationBar+CcNavBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +508,7 @@
 			baseConfigurationReference = C867B9D6526BA31FAEB38A38 /* Pods-CC_InstantMessagingWithWCDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZRPAF835ZH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -419,6 +527,7 @@
 			baseConfigurationReference = 3902473D4E87A157C89D07BB /* Pods-CC_InstantMessagingWithWCDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZRPAF835ZH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
